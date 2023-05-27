@@ -552,13 +552,89 @@ a {
     }
 }
 
+/* card box */
+
+.card-box {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+}
+
+
 /* card */
 
-.card-box{  
-font-family: 'T-Star Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: #000000;
+.card-section h1 {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.card-design {
+    position: relative;
+}
+
+.name-title {
+    position: absolute;
+    left: 430px;
+}
+
+.title-spacial {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.para {
+    margin-top: 100px;
+}
+
+.story-para {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.para p {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .card-section h1 {
+
+        font-weight: 700;
+        font-size: 50px;
+
+    }
+
+    .card-design {
+        position: relative;
+    }
+
+    .name-title {
+        position: absolute;
+        left: 0px;
+        top: 320px;
+    }
+
+    .title-spacial {
+        color: rgba(8, 11, 228, 0.78);
+    }
+
+    .second-row .para {
+        margin: 80px 0px;
+
+    }
+
 }
