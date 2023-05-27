@@ -638,3 +638,16 @@ a {
     }
 
 }
+
+/* footer */
+.bx{
+    background: #111111;
+    border-radius:50%;
+    padding: 10px;
+    color: #f4e9e9;
+}
+
+.bx:hover{
+    background: #e20799;
+    color: #f4e9e9;
+}
